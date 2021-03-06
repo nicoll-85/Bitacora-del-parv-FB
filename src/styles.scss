@@ -1,6 +1,122 @@
-$primary-color: white;
-$bg: black;
-h1 {
-  color: $primary-color;
-  background-color: $bg;
+body{
+  font-family: 'Roboto', sans-serif;
 }
+// .container{
+//   margin-top: 30px;
+//   margin-bottom: 30px;
+// }
+.header-bg{
+  background-image: url("./images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.down-option{
+  width: 75px;
+  bottom: 0;
+  position: absolute;
+  left: 60px;
+  a{
+    transition: transform 250ms, opacity 400ms;
+
+    &:hover{
+      transform: scale(1.2);
+      opacity: 0;
+    }
+  }
+  
+}
+.objet-bg{
+  background-image: url(./images/curvas.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-section-1{
+  background-image: url("./images/bg-wall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.title-section{
+  display: block;
+  position: relative;
+  margin: auto;
+  padding: 50px 30px;
+  h2,h3,h4,h5{
+    color: #4A3F3C;
+    font-weight: 700;
+    text-align: center;
+  }
+  img{
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+}
+.bg-setion-2{
+  background: rgb(245,243,236);
+  background: linear-gradient(360deg, rgba(245,243,236,1) 0%, rgba(181,176,167,1) 100%);
+}
+.block-columns{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  // margin-bottom: 30px;
+  &.block-columns--center{
+    justify-content: space-evenly;
+  }
+  .block{
+    display: flex;
+    flex-direction: column;
+    &.block-xs-sm-hide{
+      @media screen and (max-width:767.98px){
+        display: none;
+      }
+    }
+    &.block-md-xl-hide{
+      @media screen and (min-width:768px){
+        display: none;
+      }
+    }
+  }
+}
+.list-item{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  .list-head{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .list-descrip{
+    font-size: 16px;
+    font-family: 400;
+  }
+}
+.social-media-container{
+  display: flex;
+  flex-direction: column;
+  .social-media-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .icon-media{
+      width: 36px;
+      margin-right: 5px;
+    }
+  }
+
+}
+.post{
+  height: 100vh;
+}
+
+@import "./components/navbar-main.scss";
+@import "./components/avatar.scss";
+@import "./components/buttons.scss";
+@import "./components/counter.scss";
+@import "./components/cards.scss";

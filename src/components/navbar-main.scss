@@ -1,0 +1,49 @@
+.navbar-main{
+    background-image: linear-gradient(270deg, #876F79 0%, #000000 0%, #D9D4BC 0%, #0D0005 49%, #000000 100%);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    .navbar{
+        position: relative;
+        display: flex;
+        min-height: 75px;
+        padding: 0px;
+        .nav-item{
+            font-weight: 500;
+            .nav-link{
+                color:white;
+                text-decoration: none;
+                background-color: transparent;
+                padding-right:2rem ;
+                padding-left:2rem ;
+                padding-top: 1.5rem;
+                padding-bottom: 1.5rem;
+                &:hover{
+                    background-color: #B18F4A;
+                    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+                }
+            }
+        }
+        
+        .navbar-brand{
+            width: 125px;
+        }
+        
+        .navbar-toggler-icon{
+            img{
+                width: 35px;
+            }
+            &.navbar-toggler-icon-med{
+                width: 100px;
+            }
+            
+        }
+        .logo-mobile{
+            display: none;
+            width: 115px;
+            margin-right: 20px;
+            @media screen and (max-width:992px){
+                display:block;
+            }
+        }
+        
+    }
+}

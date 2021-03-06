@@ -1,0 +1,27 @@
+
+.count-container{
+    display: flex;
+    flex-direction: column;
+    .counter{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        .counter-item{
+           padding: 6px 6px 4px;
+           border-radius: 3px;
+           background-color: #71615D;
+           margin-left: 5px;
+           .text-item-center{
+               text-align: center;
+               color: white;
+               
+               p{
+                margin-bottom: 0px;
+                font-weight: 800;
+               }
+           } 
+        }
+
+    }
+
+}

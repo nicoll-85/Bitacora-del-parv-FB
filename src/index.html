@@ -1,11 +1,209 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Empty project</title>
+        <title>Bitácora del Parvulo- Fabricio Estrada</title>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
     </head>
     <body>
         <div id="app"></div>
         <script src="index.js"></script>
+        <div class="navbar-main fixed-top">
+            <nav class="navbar navbar-expand-lg ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon">
+                      <img src="./images/menu.svg">
+                  </span>
+                </button>
+                
+                <img class="logo-mobile" src="./images/logo-dark.svg" alt="logo">
+               
+        
+                <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+                    <div class="navbar-brand">
+                        <img src="./images/logo-white.svg" alt="logo">
+                    </div>
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">INICIO<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">PERFIL</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#">PUBLICACIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">LIBROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">PODCAST</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">GALERÍA</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+        <section class=" header header-bg">
+            <a class=""href="#">
+                <img class="down-option animate__animated animate__bounce" src="./images/down.svg" alt="down-icon">
+            </a> 
+        </section>
+        <section class="perfil-section bg-section-1">
+            <div class="container">
+                <div class="title-section">
+                    <img src="./images/FE-name.svg" alt="Fabricio Estrada">
+                </div>
+                <div class="block-columns">
+                    <div class="block align-items-center block-md-xl-hide col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <h6>Escritor-Fotógrafo</h6>
+                        <div class="avatar">
+                            <div class="media-photo">
+                                <img class="rounded-circle"src="./images/avatar-profile.png">
+                            </div>
+                        </div>
+                        <div class="actions-container">
+                            <button type="button" class="btn btn-primary btn-block mt-3">Seguir</button>
+                        </div>
+                        
+                    </div>
+                    <div class="block col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <h5>Sobre mí</h5>
+                        <p>Donec mollis hendrerit risus. Nunc nonummy metus. Fusce vulputate eleifend sapien. Sed cursus turpis vitae tortor.
+                        </p>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, ligula. Suspendisse feugiat. Fusce vel dui.</p>
+                    </div>
+                    <div class="block align-items-center block-xs-sm-hide col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <h6>Escritor-Fotógrafo</h6>
+                        <div class="avatar">
+                            <div class="media-photo">
+                                <img class="rounded-circle"src="./images/avatar-profile.png">
+                            </div>
+                        </div>
+                        <div class="actions-container">
+                            <button type="button" class="btn btn-primary btn-block mt-3">Seguir</button>
+                        </div>
+                    </div>
+                    <div class="block col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <h5>Detalles</h5>
+                        <div class="list-item">
+                            <div class="list-head col-4">Ubicación:</div>
+                            <div class="list-descrip col-8">Sabana Grande, Francisco Morazán</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-head col-4">Intereses:</div>
+                            <div class="list-descrip col-8">Poesía, Historia, Política, Cine, Fotografía, Antropología del Chisme.</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-head col-4">Películas:</div>
+                            <div class="list-descrip col-8">Salvando al Soldado Ryan, El Piano, Apocalipsys Now, Inteligencia Artificial, Roma, Novecento…</div>
+                        </div>
+                        
+                    </div>
+                    <div class="block-columns block-columns--center mt-5">
+                        <div class="count-container">
+                            <h6>Visitantes</h6>
+                            <div class="counter">
+                                <div class="counter-item">
+                                    <div class="text-item-center">
+                                        <p>1</p>
+                                    </div>
+                                </div>
+                                <div class="counter-item">
+                                     <div class="text-item-center">
+                                         <p>2</p>
+                                     </div>
+                                 </div>
+                                 <div class="counter-item">
+                                     <div class="text-item-center">
+                                         <p>3</p>
+                                     </div>
+                                 </div>
+                                 <div class="counter-item">
+                                     <div class="text-item-center">
+                                         <p>4</p>
+                                     </div>
+                                 </div>
+                                 <div class="counter-item">
+                                     <div class="text-item-center">
+                                         <p>5</p>
+                                     </div>
+                                 </div>
+                            </div> 
+                        </div>
+                        <div class=" social-media-container mb-5">
+                            <h6>Social Media</h6>
+                            <div class="social-media-group">
+                                <a href="#">
+                                    <img class="icon-media" src="./images/facebook.svg" alt=""> 
+                                </a>
+                                <a href="#">
+                                    <img class="icon-media" src="./images/email.svg" alt=""> 
+                                </a>
+                                <a href="#">
+                                    <img class="icon-media" src="./images/twitter.svg" alt=""> 
+                                </a>                              
+                            </div>
+
+                        </div>
+                        <div class=" social-media-container">
+                            <h6>186 Seguidores</h6>
+                            <div class="social-media-group">
+                                <div class="avatar avatar--small">
+                                    <div class="media-photo">
+                                        <img class="rounded-circle"src="./images/avatar-profile.png">
+                                    </div>
+                                </div>
+                                <div class="avatar avatar--small">
+                                    <div class="media-photo">
+                                        <img class="rounded-circle"src="./images/avatar-profile.png">
+                                    </div>
+                                </div>
+                                <div class="avatar avatar--small">
+                                    <div class="media-photo">
+                                        <img class="rounded-circle"src="./images/avatar-profile.png">
+                                    </div>
+                                </div>                             
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+        </section>
+        <section class="post objet-bg bg-setion-2 ">
+            <div class="objet-bg">
+                <div class="container objet-bg">
+                    <div class="title-section">
+                        <h3> MIS PUBLICACIONES RECIENTES</h3>
+                    </div>
+                    <div class="block-columns">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./images/bg-cards.jpg" alt="Card image cap">
+                            <div class="label label-md label-yellow">
+                                <div class="label-body">
+
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+    
+                </div>
+            </div>
+            
+        </section>  
     </body>
 </html>
