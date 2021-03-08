@@ -1,0 +1,30 @@
+.label{
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    margin-right: 5px;
+    &.label-primary{
+        color: white;
+        background-color: #726960;
+    }
+    &.label-secondary{
+        color: white;
+        background-color: #BCAB1A;
+    }
+    &.label-blue{
+        color: white;
+        background-color: #186D85;
+    }
+}
+
+.label-episode{
+    display: block;
+    margin-top: -20px;
+    margin-left: 22px;
+}

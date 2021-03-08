@@ -16,6 +16,7 @@
 
         }
     }
+    
     &.avatar--small{
         width: 36px;
         height: 36px;
@@ -24,6 +25,18 @@
             img{
                 width: 30px;
                 margin-top: 5px; 
+            }
+        }
+    }
+    &.avatar--medium{
+        width: 56px;
+        height: 56px;
+        .media-photo{
+            width: 66px;
+            img{
+                width: 49px;
+                margin-top: 5px; 
+                margin-left: 3px;
             }
         }
     }

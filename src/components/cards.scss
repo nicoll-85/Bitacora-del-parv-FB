@@ -14,10 +14,30 @@
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 10px;
+    margin-bottom: 15px;
+    height: 100%;
+    &.card--small{
+        max-width: 305px;
+    }
+    .card-title-link{
+        text-decoration: underline;
+        font-size: 21px;
+        color: #334652;
+        font-weight: 600;
+        background-color: transparent;
+    }
+    .card-footer{
+        padding:1.25rem;
+        background-color: white;
+        border-top: transparent;
+    }
 }
 .card-img-top {
     border-top-left-radius: 10px;
     border-top-right-radius:10px ;
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
+    &.card-img-top-hight{
+        height: 445px;
+    }
 }
